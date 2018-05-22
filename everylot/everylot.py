@@ -25,7 +25,7 @@ QUERY = """SELECT
     *
     FROM lots
     where {} = ?
-    ORDER BY id ASC
+    ORDER BY RANDOM()
     LIMIT 1;
 """
 
